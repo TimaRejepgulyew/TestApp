@@ -1,11 +1,11 @@
 <template>
     <div>
-        <b-container fluid >
+        <b-container class="scrool" fluid>
             <b-row>
                 <b-col cols="2">
                     <b-list-group v-if="!!users && users.length">
                         <b-list-group-item v-for="user in users" :key="user.id">
-                            {{ user.name }}
+                            <strong>{{ user.name }}</strong>
                             <NavList @changeAlbum="setAlbum" :userId="user.id"></NavList>
                         </b-list-group-item>
                     </b-list-group>

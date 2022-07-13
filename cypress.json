@@ -1,0 +1,16 @@
+{
+    "projectId": "TestApp",
+
+    "chromeWebSecurity": false,
+    
+    "defaultCommandTimeout": 20000,
+
+    "baseUrl": "http://localhost:3000",
+
+    "testFiles": "**/*.feature",
+    
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    }
+}
