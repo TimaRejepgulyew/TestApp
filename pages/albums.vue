@@ -18,6 +18,10 @@ export default {
   components: {
     Content
   },
+  async created() {
+    const data = await fetch("http://jsonplaceholder.com/users", { method: "GET", })
+    
+  },
   name: 'Albums'
 }
 </script>

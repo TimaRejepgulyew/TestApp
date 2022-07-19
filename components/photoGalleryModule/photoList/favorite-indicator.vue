@@ -21,5 +21,6 @@ export default {
     props: {
         isFavorite: Boolean
     }
+    
 }
 </script>
